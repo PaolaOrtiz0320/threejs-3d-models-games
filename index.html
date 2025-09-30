@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>three.js - misc - octree collisions</title>
+	<meta charset=utf-8 />
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<link type="text/css" rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<div id="info">
+		Octree threejs demo - basic collisions with static triangle mesh<br />
+		MOUSE to look around and to throw balls<br />
+		WASD to move and SPACE to jump
+	</div>
+	<div id="container"></div>
+
+	<script type="importmap">
+			{
+				"imports": {
+					"three": "./build/three.module.js",
+					"three/addons/": "./jsm/"
+				}
+			}
+		</script>
+	<script type="module" src="./js/main.js"></script>
+
+	<nav
+		style="position:fixed;inset:0 auto auto 0;height:56px;width:100%;display:flex;align-items:center;gap:16px;padding:0 16px;background:#0f172a;color:#e2e8f0;z-index:10;">
+		<strong>octree collisions</strong>
+		<span style="opacity:.7">|</span>
+	</nav>
+
+	<!-- …tu canvas/app aquí… -->
+
+	<!-- FOOTER -->
+	<footer
+		style="position:fixed;inset:auto 0 0 0;height:40px;display:flex;align-items:center;justify-content:center;background:#0f172a;color:#cbd5e1;font:12px/1.2 system-ui;z-index:10;">
+		Hecho por <strong style="margin:0 6px;">Paola Ortiz</strong> · ITIC’s · 2025
+	</footer>
+
+</body>
+
+</html>
